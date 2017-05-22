@@ -1,0 +1,233 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SPC ORG 2017</title>
+<style>
+body { background: #000000; }
+
+body, body > * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+* { transition: all .3s ease 0s; }
+
+/* Background colours */
+
+div + div article:nth-child(1) { background: #D7140E; }
+
+div + div article:nth-child(2) { background: #BFBFBF; }
+
+div + div article:nth-child(3) { background: #fdb632; }
+
+div + div article:nth-child(4) { background: #027878; }
+
+div + div article:nth-child(5) { background: #1299ff; }
+
+div + div article:nth-child(6) { background: #7722aa; }
+
+div + div article:nth-child(7) { background: #38c2b6; }
+
+div + div article:nth-child(8) { background: #801638; }
+
+div + div article:nth-child(9), div + div { background: #ffffff; }
+
+/* Main layout */
+
+html, body, div + div {
+  width: 100vw;
+  height: 100vh;
+}
+
+div + div {
+  list-style: none;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+/* Articles */
+
+div + div article {
+  flex: initial;
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  padding: 2vh 1vw;
+  position: relative;
+}
+
+/* Big Headings */
+
+body > div:first-child {
+  position: fixed;
+  bottom: 8vh;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+ padding: .5rem;
+  z-index: 2;
+}
+
+body > div:first-child h1, body > div:first-child h2 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hover interaction */
+
+div + div:hover article {
+  flex: initial;
+  width: 6%;
+}
+
+div + div article:hover { width: 50%; }
+
+article > div {
+  opacity: 0;
+  transition: opacity .2s ease 0;
+}
+
+div + div article:hover > div {
+  opacity: 1;
+  transition: opacity .3s ease .3s;
+}
+
+/* navigation */
+
+div + div article > h2 {
+  bottom: 2vh;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  font-size: 3vh;
+}
+
+/* Article layouts */
+
+article div {
+  text-align: left;
+  width: 42vw;
+}
+
+article div p, article div div h2, article div h3 { margin: 0 0 1em 0; }
+
+h1, h2, h3, h4, h5, h6 { text-transform: uppercase; }
+
+article div p { width: 30vw; }
+@media (max-width: 900px) {
+
+div + div article { padding: 2vh 3vw; }
+
+div + div article > h2 {
+  transform: rotate(90deg);
+  bottom: 23vh;
+  min-width: 12em;
+  text-align: left;
+  transform: rotate(-90deg);
+  transform-origin: 0 0 0;
+  opacity: 1;
+}
+
+div + div article:hover > h2 { opacity: 0; }
+
+article div p { width: 50vw; }
+
+article div {
+  max-height: calc(100%);
+  overflow-y: auto;
+}
+}
+</style>
+</head>
+
+<body>
+<!-- Built by Rachel Reveley http://rachelreveley.co.uk and broken by Tallbastard and then stolen by ExarcheiaNet.gr -->
+<div>
+  <h1>ExarcheiaNet.GR</h1>
+  <h2>2017</h2>
+</div>
+<div>
+  <article>
+    <h2>ABOUT</h2>
+    <div>
+      <h3>Activist Media Proxy</h3>
+<a href="http://amp.spc.org"><img src="http://wrd.spc.org/wp-content/uploads/2016/10/carnivalselectioncrop.png" alt=""></a>
+	</div>
+  </article>
+  <article>
+    <h2>REF</h2>
+    <div>
+      <h3>Backspace</h3>
+<a href="http://bak.spc.org"><img src="http://wrd.spc.org/wp-content/uploads/2016/10/StevensJamesoutsidebak.jpg" alt="James at backspace"></a>
+      </div>
+  </article>
+  <article>
+    <h2>WAN</h2>
+    <div>
+      <h3>Bitspace</h3>
+<a href="http://bit.spc.org">      <img src="http://wrd.spc.org/wp-content/uploads/2017/01/bitspacecrew.jpg" alt=""></a>
+       </div>
+  </article>
+  <article>
+    <h2>EDU</h2>
+    <div>
+      <h3>Deckspace</h3>
+
+<a href="http://dek.spc.org"><img src="http://wrd.spc.org/wp-content/uploads/2017/01/dek-video09clip-1.jpg" alt=""></a>
+    </div>
+  </article>
+   <article>
+    <h2>WHO</h2>
+    <div>
+      <h3>Open wireless Network</h3>
+<a href="http://own.spc.org"><img src="http://own.spc.org/wp-content/uploads/2016/11/ownmagenta.gif" alt="own magenta"> </a>
+    </div>
+  </article>
+   <article>
+    <h2>OMV</h2>
+    <div>
+      <h3>Open Media Vault</h3>
+ <a href="http://omv.spc.org:8081"><img src="http://wrd.spc.org/wp-content/uploads/2017/01/omv.png" alt=""></a>  </div>
+  </article>
+  <article>
+    <h2>MGS</h2>
+    <div>
+      <h3>Myatt Garden Storysacks</h3>
+<a href="http://storysacks.spc.org"><img src="http://storysacks.spc.org/wp-content/uploads/2016/11/PhotoBadgersParting-624x468.jpg" alt=""></a>
+        </div>
+  </article>
+  <article>
+    <h2>WRD</h2>
+    <div>
+      <h3>Work Review Distraction</h3>
+      <p><a href="http://wrd.spc.org"><img src="http://wrd.spc.org/wp-content/uploads/2017/01/swrdslice.png" alt=""></a></p>
+    </div>
+  </article>
+</div>
+</body><!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46156385-1', 'cssscript.com');
+  ga('send', 'pageview');
+
+</script> -->
+</html>
+
